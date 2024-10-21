@@ -1,0 +1,88 @@
+.gallery-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(222, 187, 140);
+}
+.gallery-view h1{
+  color: yellow;
+}
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filters .filter-button {
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+.filter-button2 {
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+}
+
+.filters .filter-button:hover {
+  background-color: red;
+  color: white;
+}
+
+.filters .filter-button:active {
+  background-color: red;
+}
+
+.pokemon-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.pokemon-item {
+  text-align: center;
+  border: 2px solid grey;
+  border-radius: 8px;
+  padding: 10px;
+  width: 100px; /* Fixed width for horizontal layout */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pokemon-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 0px;
+}
+
+.pokemon-info {
+  margin-top: 5px;
+  color: black;
+  font-size: 14px; /* 调整字体大小 */
+  font-weight: bold;
+}
+
+.pokemon-info p {
+  margin: 0; /* 移除段落的默认外边距 */
+  padding: 2px 0; /* 添加一些内边距 */
+}
+
+@media (max-width: 768px) {
+  .pokemon-item {
+    width: 150px; /* Adjust width for smaller screens */
+  }
+}

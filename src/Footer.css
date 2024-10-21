@@ -1,0 +1,24 @@
+/* Footer.css */
+.footer {
+    border-top: 1px solid #e7e7e7;
+    padding: 20px 0;
+    text-align: center;
+    background-color: gray;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  .footer-content p {
+    margin: 0;
+    color: orange;
+    font-weight: 1000;
+    text-decoration: double;
+    font-size: 1.5vw;
+  }
+
+  
