@@ -112,13 +112,13 @@ const DetailView: React.FC = () => {
                   {pokemon.name} #{pokemon.id}
                 </Typography>
                 <Typography variant="body1" color="red">
-                  Height: {pokemon.height} m
+                  Height: {pokemon.height} dm
                 </Typography>
                 <Typography variant="body1" color="red">
-                  Weight: {pokemon.weight} kg
+                  Weight: {pokemon.weight} hg
                 </Typography>
                 <Divider />
-                <Typography variant="h6" gutterBottom>
+                <Typography variant="h6" >
                   Abilities
                 </Typography>
                 <List>
